@@ -1,0 +1,57 @@
+body{
+    min-height: 100vh;
+    background: url("myimage.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.header{
+    background: rgba(126, 251, 255,0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.body{
+    display: flex;
+    padding: 50px;
+}
+.body img{
+    height: 350px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 10px black;
+}
+.body .para{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 20px;
+}
+.body ul li{
+    display: block;
+}
+.icons{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+}
